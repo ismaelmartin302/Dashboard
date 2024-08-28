@@ -4,15 +4,15 @@ main {
     height: 100%;
 }
 
-.container {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(5, 8em);
-    grid-template-rows: repeat(5, 8em);
-    gap: 0.4em;
-    justify-content: center;
-    align-content: center;
-}
+// .container {
+//     display: grid;
+//     width: 100%;
+//     grid-template-columns: repeat(5, 8em);
+//     grid-template-rows: repeat(5, 8em);
+//     gap: 0.4em;
+//     justify-content: center;
+//     align-content: center;
+// }
 
 app-schema, app-menu {
         background-color: rgba($color: #7bc6dd, $alpha: 0.25);
