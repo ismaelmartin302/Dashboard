@@ -30,15 +30,6 @@ app-topmenu {
     height: fit-content;
 }
 
-app-schema {
-    color: white;
-    background-color: rgba($color: #7bc6dd, $alpha: 0.25);
-    padding: .8em;
-    height: 4em;
-    width: 4em;
-    margin: auto;
-    border-radius: 16px;
-}
 
 // sm
 @media (min-width: 576px) {  }
