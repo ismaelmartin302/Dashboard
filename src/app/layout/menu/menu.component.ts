@@ -5,8 +5,12 @@ import { SchemaComponent } from "../../modules/schema/schema.component";
   selector: 'app-menu',
   standalone: true,
   imports: [SchemaComponent],
-  templateUrl: './menu.component.html',
-  styleUrl: './menu.component.scss'
+  template: `
+    @for (app of appsMenu; track $index) {
+    <app-schema [app]="app"></app-schema>
+  }
+`,
+  styles: ``
 })
 export class MenuComponent {
   @Input() appsMenu: Array<any> = [];
