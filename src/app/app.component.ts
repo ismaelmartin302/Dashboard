@@ -13,5 +13,8 @@ import { MenuComponent } from "./layout/menu/menu.component";
 })
 export class AppComponent {
   title: String = 'Dashboard';
-  apps: Array<any> = ['house', 'house-fill'];
+  appsArray: Array<any> = ['whatsapp', 'instagram', 'twitter-x', 'browser-chrome', 'envelope-at-fill', 'git', 'github'];
+  menuAppsArray: Array<any> = ['telephone', 'images', 'chat', 'gear', 'camera'];
+  apps: Array<any> = this.appsArray;
+  appsMenu: Array<any> = this.menuAppsArray;
 }

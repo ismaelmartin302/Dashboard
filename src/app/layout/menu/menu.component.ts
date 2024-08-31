@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { SchemaComponent } from "../../modules/schema/schema.component";
 
 @Component({
@@ -9,5 +9,5 @@ import { SchemaComponent } from "../../modules/schema/schema.component";
   styleUrl: './menu.component.scss'
 })
 export class MenuComponent {
-
+  @Input() appsMenu: Array<any> = [];
 }
