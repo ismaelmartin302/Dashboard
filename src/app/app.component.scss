@@ -1,5 +1,10 @@
 // xs
 
+main {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
 section {
     display: grid;
     width: 100%;
@@ -12,16 +17,14 @@ section {
     grid-auto-flow: row;
 }
 
-app-schema, app-topmenu {
-        // background-color: rgba($color: #7bc6dd, $alpha: 0.25);
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: fit-content;
-        border-radius: 16px;
+app-menu {
+    display: flex;
+    width: 100%;
+    // height: 10em;
 }
 app-topmenu {
+    color: white;
+    display: flex;
     height: fit-content;
 }
 
