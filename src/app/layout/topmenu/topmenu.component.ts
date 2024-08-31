@@ -2,13 +2,13 @@ import { isPlatformBrowser } from '@angular/common';
 import { Component, Inject, OnInit, PLATFORM_ID } from '@angular/core';
 
 @Component({
-  selector: 'app-menu',
+  selector: 'app-topmenu',
   standalone: true,
   imports: [],
-  templateUrl: './menu.component.html',
-  styleUrl: './menu.component.scss'
+  templateUrl: './topmenu.component.html',
+  styleUrl: './topmenu.component.scss'
 })
-export class MenuComponent implements OnInit {
+export class TopMenuComponent implements OnInit {
   public actualTime: Date = new Date();
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) { }
