@@ -12,5 +12,6 @@ import { MenuComponent } from "./layout/menu/menu.component";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'Dashboard';
+  title: String = 'Dashboard';
+  apps: Array<any> = ['house', 'house-fill'];
 }

@@ -1,11 +1,9 @@
 <main>
     <app-topmenu class="w-100"></app-topmenu>
     <section class="px-3">
-        <app-schema></app-schema>
-        <app-schema></app-schema>
-        <app-schema></app-schema>
-        <app-schema></app-schema>
-        <app-schema></app-schema>
+        @for (app of apps; track $index) {
+        <app-schema app="{{ app }}"></app-schema>
+        }
     </section>
     <app-menu></app-menu>
 </main>
